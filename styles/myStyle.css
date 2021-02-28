@@ -1,0 +1,51 @@
+body{
+	font-family: "Lucida Grande", Georgia, "Times New Roman", Times, serif;
+	font-size: 0.8em;
+	background: #727272;
+	text-align: center;
+	margin: 0;
+}
+form{
+
+    width:300px;
+	padding:16px;
+	border-radius:0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+	
+	background-color:#ccc;
+
+
+}
+label{
+
+    width:90px;
+	font-weight:bold;
+	display:inline-block;
+}
+input[type="text"],input[type="password"],input[type="email"],input[type="date"]{
+
+    width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+#error_pass{
+    clear:both;  
+}
+
+.invalid{
+    
+    border-color: red;
+}
+#mensaje{
+	width:fit-content;
+	display:inline;
+	border-style: solid;
+	border-color: aqua;
+}
